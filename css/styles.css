@@ -1,0 +1,140 @@
+:root {
+    /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /* text colors */
+    --main-txt-cl: #757575;
+    --title-txt-cl: #212121;
+    --accent-txt-cl: #2196F3;
+    --btn-txt-cl: #ffffff;
+    /* bg colors */
+    --light-bg-cl: #f7f7f7;
+    --dark-bg-cl: #191c26;
+    /* others */
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-txt-cl);
+}
+
+
+/* reset styles */
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list {
+    list-style: none;
+}
+
+.logof {
+    font-family: var(--main-font);
+    font-size: 26px;
+    line-height: auto;
+    letter-spacing: 0.03em;
+    word-spacing: 0px;
+    color: var(--accent-txt-cl);
+}
+
+.logos {
+    font-family: var(--main-font);
+    font-size: 26px;
+    line-height: auto;
+    letter-spacing: 0.03em;
+    word-spacing: 0px;
+    color: #000000;
+}
+
+.header-link1 {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 0.02em;
+    color: var(--accent-txt-cl);
+}
+
+.header-link1:hover,
+.header-link1:focus {
+    color: #000000;
+}
+
+.header-link2 {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.header-link2:hover,
+.header-link2:focus {
+    color: var(--accent-txt-cl);
+}
+
+.header-link3 {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.header-link3:hover,
+.header-link3:focus {
+    color: var(--accent-txt-cl);
+}
+
+.header-mail {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--accent-txt-cl);
+}
+
+.header-phone {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+
+.header-phone:hover,
+.header-phone:focus {
+    color: var(--accent-txt-cl);
+}
+
+.main-title {
+    font-family: var(--secondary-font);
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: var(--btn-txt-cl);
+    background-color: var(--accent-txt-cl);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--btn-txt-cl);
+    background-color: #188CE8;
+}
