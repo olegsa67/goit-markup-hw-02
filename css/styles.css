@@ -30,6 +30,9 @@ body {
     list-style: none;
 }
 
+
+/* стилі для заголока */
+
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
