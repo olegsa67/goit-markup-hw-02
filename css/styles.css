@@ -63,6 +63,9 @@ body {
     color: var(--accent-txt-cl);
 }
 
+
+/* активна сторінка */
+
 .current-page {
     color: var(--accent-txt-cl)
 }
@@ -132,6 +135,9 @@ body {
     color: var(--accent-txt-cl);
     background-color: #FFFFFF;
 }
+
+
+/* активна кнопка */
 
 .current-item {
     color: #FFFFFF;
