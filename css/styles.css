@@ -63,6 +63,10 @@ body {
     color: var(--accent-txt-cl);
 }
 
+.current-page {
+    color: var(--accent-txt-cl)
+}
+
 .header-mail {
     font-family: var(--main-font);
     font-size: 14px;
@@ -119,14 +123,19 @@ body {
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
     color: var(--btn-txt-cl);
-    background-color: #F5FAF4;
+    background-color: #F5F4FA;
     cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-    color: var(--btn-txt-cl);
-    background-color: #188CE8;
+    color: var(--accent-txt-cl);
+    background-color: #FFFFFF;
+}
+
+.current-item {
+    color: #FFFFFF;
+    background-color: var(--accent-txt-cl);
 }
 
 
