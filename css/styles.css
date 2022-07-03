@@ -30,69 +30,42 @@ body {
     list-style: none;
 }
 
-.logof {
-    font-family: var(--main-font);
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
     font-size: 26px;
-    line-height: auto;
+    line-height: calc(31 / 26);
     letter-spacing: 0.03em;
-    word-spacing: 0px;
     color: var(--accent-txt-cl);
 }
 
-.logos {
-    font-family: var(--main-font);
-    font-size: 26px;
-    line-height: auto;
-    letter-spacing: 0.03em;
-    word-spacing: 0px;
-    color: #000000;
+.accent {
+    color: var(--dark-bg-cl);
 }
 
-.header-link1 {
-    font-family: var(--main-font);
-    font-size: 14px;
-    line-height: auto;
-    letter-spacing: 0.02em;
-    color: var(--accent-txt-cl);
+.accent-ft {
+    color: var(--light-bg-cl);
 }
 
-.header-link1:hover,
-.header-link1:focus {
-    color: #000000;
-}
-
-.header-link2 {
+.header-link {
     font-family: var(--main-font);
     font-size: 14px;
-    line-height: auto;
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: #000000;
 }
 
-.header-link2:hover,
-.header-link2:focus {
-    color: var(--accent-txt-cl);
-}
-
-.header-link3 {
-    font-family: var(--main-font);
-    font-size: 14px;
-    line-height: auto;
-    letter-spacing: 0.02em;
-    color: #000000;
-}
-
-.header-link3:hover,
-.header-link3:focus {
+.header-link:hover,
+.header-link:focus {
     color: var(--accent-txt-cl);
 }
 
 .header-mail {
     font-family: var(--main-font);
     font-size: 14px;
-    line-height: auto;
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: #000000;
+    color: var(--main-txt-cl);
 }
 
 .header-mail:hover,
@@ -103,7 +76,7 @@ body {
 .header-phone {
     font-family: var(--main-font);
     font-size: 14px;
-    line-height: auto;
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
@@ -113,16 +86,21 @@ body {
     color: var(--accent-txt-cl);
 }
 
+.main {
+    background-color: #2F3030;
+    align-items: center;
+    text-align: center;
+}
+
 .main-title {
     font-family: var(--secondary-font);
     font-size: 44px;
     line-height: calc(60 / 44);
     letter-spacing: 0.06em;
     color: #ffffff;
-    background-color: #000000;
 }
 
-.button {
+.button-action {
     font-family: inherit;
     font-weight: bold;
     font-size: 16px;
@@ -133,8 +111,111 @@ body {
     cursor: pointer;
 }
 
+.button-filter {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: var(--btn-txt-cl);
+    background-color: #F5FAF4;
+    cursor: pointer;
+}
+
 .button:hover,
 .button:focus {
     color: var(--btn-txt-cl);
     background-color: #188CE8;
+}
+
+
+/* main section */
+
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 /14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-txt-cl);
+}
+
+.feature-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-txt-cl);
+}
+
+.portfolio-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+}
+
+.team {
+    background-color: #F5FAF4;
+}
+
+.team-hd {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-txt-cl);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-txt-cl);
+}
+
+.team-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+}
+
+
+/* footer section */
+
+.footer {
+    background-color: #000000;
+}
+
+.footer-contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address {
+    color: #ffffff;
+}
+
+.portfolio-list {
+    background-color: #F5FAF4;
 }
