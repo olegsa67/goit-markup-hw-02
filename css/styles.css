@@ -1,7 +1,7 @@
 :root {
     /* fonts */
     --main-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
     /* text colors */
     --main-txt-cl: #757575;
     --title-txt-cl: #212121;
@@ -34,7 +34,7 @@ body {
 /* стилі для заголока */
 
 .logo {
-    font-family: var(--secondary-font);
+    font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -50,11 +50,15 @@ body {
     color: var(--light-bg-cl);
 }
 
-.header-link {
+.header-nav {
     font-family: var(--main-font);
+    font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+}
+
+.header-link {
     color: #000000;
 }
 
@@ -71,10 +75,6 @@ body {
 }
 
 .header-mail {
-    font-family: var(--main-font);
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
 
@@ -84,10 +84,6 @@ body {
 }
 
 .header-phone {
-    font-family: var(--main-font);
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
 
@@ -100,31 +96,39 @@ body {
     background-color: #2F3030;
     align-items: center;
     text-align: center;
+    font-family: var(--main-font);
+    letter-spacing: 0.06em;
 }
 
 .main-title {
-    font-family: var(--secondary-font);
+    font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
-    letter-spacing: 0.06em;
     color: #ffffff;
+    text-transform: uppercase;
+}
+
+.button {
+    font-size: 16px;
+    line-height: calc(30 / 16);
 }
 
 .button-action {
     font-family: inherit;
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    letter-spacing: 0.06em;
+    font-weight: 700;
     color: var(--btn-txt-cl);
     background-color: var(--accent-txt-cl);
     cursor: pointer;
 }
 
+.button-action,
+.button-action:focus {
+    color: var(--bnt-txt-cl);
+    background-color: #188CE8;
+}
+
 .button-filter {
     font-family: inherit;
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    letter-spacing: 0.06em;
     color: var(--btn-txt-cl);
     background-color: #F5F4FA;
     cursor: pointer;
@@ -148,6 +152,7 @@ body {
 /* main section */
 
 .feature-title {
+    font-weight: 700;
     font-size: 14px;
     line-height: calc(16 /14);
     letter-spacing: 0.03em;
@@ -156,6 +161,7 @@ body {
 }
 
 .feature-txt {
+    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -163,6 +169,7 @@ body {
 }
 
 .job-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
@@ -170,69 +177,71 @@ body {
     color: var(--title-txt-cl);
 }
 
-.portfolio-title {
-    font-size: 36px;
-    line-height: calc(42 / 36);
+.portfolio-list {
+    background-color: #F5FAF4;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
     color: var(--title-txt-cl);
 }
 
 .portfolio-txt {
+    font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
-    text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-txt-cl);
 }
 
 .team {
-    background-color: #F5FAF4;
+    background-color: #F5F4FA;
+    text-align: center;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
 }
 
 .team-hd {
+    font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
-    text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-txt-cl);
 }
 
 .team-title {
     font-weight: 500;
-    font-size: 16px;
-    line-height: calc(19 / 16);
-    text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-txt-cl);
 }
 
 .team-txt {
-    font-size: 16px;
-    line-height: calc(19 / 16);
-    text-align: center;
-    letter-spacing: 0.03em;
+    font-weight: 400;
     color: var(--main-txt-cl);
 }
 
 
 /* footer section */
 
-.footer {
-    background-color: #000000;
+.contacts-address {
+    font-style: normal;
 }
 
-.footer-contact {
+.footer {
+    background-color: #000000;
+    font-family: var(--main-font);
+    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
+}
+
+.footer-contact {
     color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-address {
     color: #ffffff;
-}
-
-.portfolio-list {
-    background-color: #F5FAF4;
 }
