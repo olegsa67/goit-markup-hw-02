@@ -129,13 +129,13 @@ body {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
-    color: var(--btn-txt-cl);
+    color: var(--title-txt-cl);
     background-color: #F5F4FA;
     cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button-filter:hover,
+.button-filter:focus {
     color: var(--accent-txt-cl);
     background-color: #FFFFFF;
 }
@@ -178,7 +178,7 @@ body {
 }
 
 .portfolio-list {
-    background-color: #F5FAF4;
+    background-color: #F5F4FA;
     text-align: center;
     letter-spacing: 0.03em;
 }
