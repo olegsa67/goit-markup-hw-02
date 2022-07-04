@@ -96,39 +96,39 @@ body {
     background-color: #2F3030;
     align-items: center;
     text-align: center;
-    font-family: var(--main-font);
-    letter-spacing: 0.06em;
 }
 
 .main-title {
+    /*   font-family: var(--main-font); */
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
     color: #ffffff;
     text-transform: uppercase;
-}
-
-.button {
-    font-size: 16px;
-    line-height: calc(30 / 16);
 }
 
 .button-action {
     font-family: inherit;
     font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
     color: var(--btn-txt-cl);
     background-color: var(--accent-txt-cl);
     cursor: pointer;
 }
 
-.button-action,
+.button-action:hover,
 .button-action:focus {
-    color: var(--bnt-txt-cl);
     background-color: #188CE8;
 }
 
 .button-filter {
     font-family: inherit;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
     color: var(--btn-txt-cl);
     background-color: #F5F4FA;
     cursor: pointer;
@@ -200,8 +200,6 @@ body {
 .team {
     background-color: #F5F4FA;
     text-align: center;
-    font-size: 16px;
-    line-height: calc(19 / 16);
     letter-spacing: 0.03em;
 }
 
@@ -214,11 +212,15 @@ body {
 
 .team-title {
     font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
     color: var(--title-txt-cl);
 }
 
 .team-txt {
     font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
     color: var(--main-txt-cl);
 }
 
